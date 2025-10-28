@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+env/
+
+# 生成的大型模型文件可重新训练
+output/models/
+
+# Power BI assets
+powerbi/*.pbix
+powerbi/screenshots/*.gif
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
